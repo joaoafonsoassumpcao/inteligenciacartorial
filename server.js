@@ -74,6 +74,11 @@ app.get('/imobiliarias', function(req, res){
         });
 
 
+app.get('/depoimentos', function(req, res){
+        res.render('depoimentos');
+        });
+
+
 
 
 app.listen(app.get('port'), function(){
