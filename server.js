@@ -74,8 +74,8 @@ app.get('/imobiliarias', function(req, res){
         });
 
 
-app.get('/depoimentos', function(req, res){
-        res.render('depoimentos');
+app.get('/depoimento', function(req, res){
+        res.render('depoimento');
         });
 
 app.get('/contrato-namoro', function(req, res){
