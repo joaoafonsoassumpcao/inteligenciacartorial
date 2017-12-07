@@ -78,6 +78,26 @@ app.get('/depoimentos', function(req, res){
         res.render('depoimentos');
         });
 
+app.get('/contrato-namoro', function(req, res){
+        res.render('contrato-namoro');
+        });
+
+app.get('/cartorios-registro-civil-60-mil-cpfs', function(req, res){
+        res.render('cartorios-registro-civil-60-mil-cpfs');
+        });
+
+app.get('/certidoes-de-cara-nova', function(req, res){
+        res.render('certidoes-de-cara-nova');
+        });
+
+app.get('/stj-uniao-estavel', function(req, res){
+        res.render('stj-uniao-estavel');
+        });
+
+app.get('/facilidade-passaporte-cartorio', function(req, res){
+        res.render('facilidade-passaporte-cartorio');
+        });
+
 
 
 
