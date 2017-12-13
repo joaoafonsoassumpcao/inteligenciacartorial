@@ -98,6 +98,10 @@ app.get('/facilidade-passaporte-cartorio', function(req, res){
         res.render('facilidade-passaporte-cartorio');
         });
 
+app.get('/burocracia-na-desjudicializacao', function(req, res){
+        res.render('burocracia-na-desjudicializacao');
+        });
+
 
 
 
