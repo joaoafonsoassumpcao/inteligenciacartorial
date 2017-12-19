@@ -102,6 +102,10 @@ app.get('/burocracia-na-desjudicializacao', function(req, res){
         res.render('burocracia-na-desjudicializacao');
         });
 
+app.get('/legislacao', function(req, res){
+        res.render('legislacao');
+        });
+
 
 
 
