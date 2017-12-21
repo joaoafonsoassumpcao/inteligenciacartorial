@@ -106,6 +106,14 @@ app.get('/legislacao', function(req, res){
         res.render('legislacao');
         });
 
+app.get('/blog-noticias', function(req, res){
+        res.render('blog-noticias');
+        });
+
+app.get('/blog-artigos', function(req, res){
+        res.render('blog-artigos');
+        });
+
 
 
 
